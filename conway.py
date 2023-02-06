@@ -10,7 +10,7 @@ width, height = 640, 480
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Conway\'s Game of Life')
 
-# initialize grid with random states
+# initialize grid randomly
 grid_size = (80, 60)
 grid = np.random.choice([0, 1], grid_size)
 
