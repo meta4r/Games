@@ -21,7 +21,7 @@ cell_size = width // grid_size[0]
 black = pygame.Color(0, 0, 0)
 white = pygame.Color(255, 255, 255)
 
-# function to update grid
+#update grid
 def update_grid(grid):
     new_grid = grid.copy()
     for i in range(grid_size[0]):
