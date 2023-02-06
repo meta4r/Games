@@ -59,7 +59,6 @@ while running:
     # update display
     pygame.display.update()
     
-    # add delay
     time.sleep(0.1)
 
 # quit pygame
