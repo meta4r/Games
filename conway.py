@@ -5,7 +5,7 @@ import time
 # initialize pygame
 pygame.init()
 
-# set window size and title
+# window size & title
 width, height = 640, 480
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Conway\'s Game of Life')
