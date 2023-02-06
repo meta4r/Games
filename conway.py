@@ -14,14 +14,14 @@ pygame.display.set_caption('Conway\'s Game of Life')
 grid_size = (80, 60)
 grid = np.random.choice([0, 1], grid_size)
 
-# set cell size based on window size and grid size
+# set cell size 
 cell_size = width // grid_size[0]
 
 # define colors
 black = pygame.Color(0, 0, 0)
 white = pygame.Color(255, 255, 255)
 
-#update grid
+# update grid
 def update_grid(grid):
     new_grid = grid.copy()
     for i in range(grid_size[0]):
